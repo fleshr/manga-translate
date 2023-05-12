@@ -1,0 +1,17 @@
+.heading {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.text {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 4px 8px 5px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.25;
+  background-color: white;
+  resize: none;
+  border: 1px solid var(--gray-85);
+}

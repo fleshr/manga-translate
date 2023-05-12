@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+
+.spacer {
+  width: 1px;
+  border: 0;
+  margin: 4px 10px;
+  background-color: var(--gray-80);
+}
+
+.right {
+  margin-left: auto;
+}

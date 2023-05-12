@@ -1,0 +1,7 @@
+.layout {
+  display: grid;
+  grid-template-columns: 120px 1fr 300px;
+  background-color: var(--bg-dark-color);
+  width: 100%;
+  height: 100%;
+}

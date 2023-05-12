@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  background-color: var(--bg-light-color);
+  border-left: 1px solid var(--gray-85);
+}
+
+.heading {
+  padding: 0 20px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid var(--gray-85);
+}
+
+.info {
+  overflow-y: scroll;
+  height: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info div:nth-of-type(2) {
+  margin-top: 15px;
+}
+
+.id {
+  display: flex;
+  font-size: 14px;
+}
+
+.id span:first-child {
+  width: 30px;
+  font-weight: 500;
+  color: var(--gray-50);
+}

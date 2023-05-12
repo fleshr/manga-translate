@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 2px solid var(--gray-85);
+  cursor: pointer;
+}
+
+.container:last-child {
+  margin-bottom: 0;
+}
+
+.container:hover,
+.container:hover .heading {
+  border-color: var(--gray-50);
+}
+
+.selected,
+.selected .heading {
+  border-color: var(--gray-50);
+}
+
+.heading {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-right: 2px solid var(--gray-85);
+  border-bottom: 2px solid var(--gray-85);
+  font-size: 14px;
+  text-align: center;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}

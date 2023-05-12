@@ -1,0 +1,22 @@
+.heading {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  font-size: 13px;
+  margin-top: 15px;
+  gap: 15px;
+}
+
+.table p {
+  display: flex;
+}
+
+.table p span:first-child {
+  width: 30px;
+  font-weight: 500;
+  color: var(--gray-50);
+}

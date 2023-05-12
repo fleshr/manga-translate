@@ -1,0 +1,18 @@
+.heading {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.image_box {
+  margin-top: 10px;
+  border: 1px solid var(--gray-85);
+  background-color: var(--bg-dark-color);
+}
+
+.image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}

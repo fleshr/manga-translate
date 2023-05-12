@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-85);
+}
+
+.current_page {
+  width: 35px;
+  height: 24px;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+  border: 1px solid var(--gray-85);
+}
